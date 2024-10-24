@@ -5,4 +5,4 @@
 - kitty
 - yay
 - LibreWolf / Brave
-- 
+- KeepassXC
