@@ -3,3 +3,5 @@
 ## Pakage 
 - hyperland
 - kitty
+- waybar
+- hyprpaper
