@@ -10,4 +10,7 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
+
+date +"Present day %Y-%m-%d Present time %H:%M:%S" | figlet -f small -w 60
+
 nerdfetch
