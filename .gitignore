@@ -8,3 +8,4 @@
 !waybar/
 !waybar/**
 !starship.toml
+!.bashrc
