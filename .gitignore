@@ -7,4 +7,4 @@
 !hypr/**
 !waybar/
 !waybar/**
-starship.toml
+!starship.toml
