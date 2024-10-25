@@ -1,7 +1,7 @@
 # LainOs
 
 ## Pakage 
-- awesome
+- hyperland
 - kitty
 - yay
 - LibreWolf / Brave
