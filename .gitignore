@@ -3,6 +3,6 @@
 
 # except
 
-!hypr/*
+!hypr/
 !hypr/**
 
