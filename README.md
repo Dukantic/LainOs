@@ -6,3 +6,4 @@
 - waybar
 - hyprpaper
 - starship
+- figlet
