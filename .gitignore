@@ -9,3 +9,5 @@
 !waybar/**
 !starship.toml
 !.bashrc
+!kitty/
+!kitty/**
