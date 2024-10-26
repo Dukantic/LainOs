@@ -11,6 +11,6 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 
-date +"Present day %Y-%m-%d Present time %H:%M:%S" | figlet -f small -w 110
+date +"Present day %Y-%m-%d Present time %H:%M:%S" | figlet -f small -w 110 
 
-nerdfetch
+nerdfetch -p
