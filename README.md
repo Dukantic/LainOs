@@ -7,3 +7,6 @@
 - hyprpaper
 - starship
 - figlet
+- lain wallpapers
+- bpytop
+- ranger
