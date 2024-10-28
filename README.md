@@ -10,3 +10,4 @@
 - lain wallpapers
 - bpytop
 - ranger
+- font-manager
