@@ -11,3 +11,7 @@
 !.bashrc
 !kitty/
 !kitty/**
+!exec/
+!exec/**
+!otherConfig/
+!otherConfig/**
