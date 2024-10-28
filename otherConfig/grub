@@ -61,4 +61,4 @@ GRUB_DISABLE_RECOVERY=true
 # functionality install os-prober and uncomment to detect and include other
 # operating systems.
 #GRUB_DISABLE_OS_PROBER=false
-GRUB_BACKGROUND=/imageGRUB/navi.jpg
+GRUB_BACKGROUND=/imageGRUB/navi.png

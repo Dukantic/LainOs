@@ -1,7 +1,7 @@
 
 dossier_entree="$PWD/.."
 dossier_arrivee="/imageGRUB"
-image="navi.jpg"
+image="navi.png"
 
 
 if [ ! -d "$dossier_arrivee" ]; then
