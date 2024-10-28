@@ -6,7 +6,7 @@
 - waybar
 - hyprpaper
 - starship
-- figlet
+- toilet
 - lain wallpapers
 - bpytop
 - ranger
