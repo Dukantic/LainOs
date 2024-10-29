@@ -15,3 +15,5 @@
 !exec/**
 !otherConfig/
 !otherConfig/**
+!nvim/
+!nvim/**
