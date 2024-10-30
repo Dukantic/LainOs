@@ -1,7 +1,7 @@
 # LainOs
 
-## Pakage 
-- hyperland
+## Packages 
+- hyprland
 - kitty
 - waybar
 - hyprpaper
