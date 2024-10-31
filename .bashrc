@@ -20,3 +20,6 @@ toilet -f future --filter crop -t Present time
 date +"%H:%M-%S" | toilet -f future --filter crop -t 
 nerdfetch
 
+#cat "$HOME/.config/tool/naviASCII"
+
+

@@ -17,3 +17,4 @@
 !otherConfig/**
 !nvim/
 !nvim/**
+!pulse/daemon.conf
