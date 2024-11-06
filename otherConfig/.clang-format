@@ -1,7 +1,4 @@
 BasedOnStyle: GNU
 IndentWidth: 2
 UseTab: Never
-BraceWrapping:
-  AfterControlStatement: true
-  AfterFunction: true
-  AfterStruct: true
+AlwaysBreakAfterReturnType: None
