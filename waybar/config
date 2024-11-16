@@ -1,8 +1,8 @@
 {
 	"layer": "top",
-	"modules-left": ["custom/launcher","cpu","memory","custom/media","tray"],
+	"modules-left": ["custom/launcher","cpu","memory","network", "custom/media","tray"],
 	"modules-center": ["river/tags"],
-	"modules-right": ["custom/updates","custom/wallpaper","backlight","pulseaudio","clock", "battery","custom/power"],
+	"modules-right": ["custom/updates","backlight","pulseaudio", "battery", "clock","custom/power"],
 
 	"pulseaudio": {
 		"tooltip": false,
@@ -47,7 +47,7 @@
 		"spacing": 10
 	},
 	"clock": {
-		"format": "{: %I:%M %p   %d/%m/%Y}"
+		"format-alt": "{: :%Y-%m-%d %H:%M:%S}"
 	},
 	"cpu": {
 		"interval": 15,
