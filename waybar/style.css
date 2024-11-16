@@ -75,8 +75,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #bd93f9;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #pulseaudio {
@@ -87,8 +87,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #1A1826;
-background: #FAE3B0;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #battery {
@@ -99,8 +99,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #B5E8E0;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #battery.charging, #battery.plugged {
@@ -133,8 +133,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #F8BD96;
+color: #C8ACD6;
+background: #2E236C;
 }
 #clock {
 margin-top: 6px;
@@ -144,8 +144,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #ABE9B3;
+color: #C8ACD6;
+background: #2E236C;
 /*background: #1A1826;*/
 }
 
@@ -157,8 +157,8 @@ margin-bottom: 0px;
 padding-right: 10px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #DDB6F2;
+color: #C8ACD6;
+background: #2E236C;
 }
 #cpu {
 margin-top: 6px;
@@ -168,8 +168,8 @@ margin-bottom: 0px;
 padding-right: 10px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #96CDFB;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #tray {
@@ -180,8 +180,8 @@ margin-bottom: 0px;
 padding-right: 10px;
 border-radius: 10px;
 transition: none;
-color: #B5E8E0;
-background: #161320;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #custom-launcher {
@@ -192,8 +192,8 @@ padding-left: 10px;
 padding-right: 5px;
 border-radius: 10px;
 transition: none;
-color: #89DCEB;
-background: #161320;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #custom-power {
@@ -206,8 +206,8 @@ padding-right: 5px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #F28FAD;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #custom-wallpaper {
@@ -218,8 +218,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #C9CBFF;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #custom-updates {
@@ -230,8 +230,8 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #E8A2AF;
+color: #C8ACD6;
+background: #2E236C;
 }
 
 #custom-media {
@@ -242,6 +242,6 @@ padding-right: 10px;
 margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
-color: #161320;
-background: #F2CDCD;
+color: #C8ACD6;
+background: #2E236C;
 }

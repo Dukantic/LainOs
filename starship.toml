@@ -1,15 +1,15 @@
 format = """
-[ ](#9A348E)\
+[ ](#17153B)\
 $os\
 $username\
-[ ](bg:#9A348E fg:#DA627D)\
+[ ](bg:#17153B fg:#2E236C)\
 $directory\
-[ ](fg:#FCA17D bg:#DA627D)\
+[ ](fg:#433D8B bg:#2E236C)\
 $git_branch\
 $git_status\
-[ ](fg:#33658A bg:#FCA17D)\
+[ ](fg:#C8ACD6 bg:#433D8B)\
 $time\
-[](fg:#33658A)\
+[](fg:#C8ACD6)\
 """
 
 # Disable the blank line at the start of the prompt
@@ -19,19 +19,19 @@ $time\
 # and use the os module below
 [username]
 show_always = true
-style_user = "bg:#9A348E"
-style_root = "bg:#9A348E"
+style_user = "bg:#17153B"
+style_root = "bg:#17153B"
 format = '[  ]($style)'
 disabled = false
 
 # An alternative to the username module which displays a symbol that
 # represents the current operating system
 [os]
-style = "bg:#9A348E"
+style = "bg:#17153B"
 disabled = true # Disabled by default
 
 [directory]
-style = "bg:#DA627D"
+style = "bg:#2E236C"
 format = "[ $path ]($style)"
 truncation_length = 2
 truncation_symbol = "…/"
@@ -71,11 +71,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "bg:#433D8B"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
+style = "bg:#433D8B"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
@@ -125,5 +125,6 @@ format = '[ $symbol ($version) ]($style)'
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
+style = "bg:#C8ACD6 fg:#17153B"
+
 format = '[ $time ]($style)'

@@ -18,7 +18,6 @@ toilet -f future --filter crop -t Present day
 date +"%Y-%m-%d" | toilet -f future --filter crop -t 
 toilet -f future --filter crop -t Present time
 date +"%H:%M-%S" | toilet -f future --filter crop -t 
-nerdfetch
 
 #cat "$HOME/.config/tool/naviASCII"
 
