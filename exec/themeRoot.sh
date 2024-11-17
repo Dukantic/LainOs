@@ -22,4 +22,4 @@ sudo cp -r "$parent_dir/otherConfig/simple-lain-sddm" "$theme_sddm"
 
 conf_sddm="/etc/sddm.conf"
 sudo rm -drf "$conf_sddm"
-sudo cp "$parent_dir/otherConfig/sddm.conf" "conf_sddm"
+sudo cp "$parent_dir/otherConfig/sddm.conf" "$conf_sddm"
