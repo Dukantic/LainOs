@@ -1,5 +1,7 @@
 # LainOs
 
+## Repo used (thank you !)
+
 ## Packages 
 - hyprland
 - kitty

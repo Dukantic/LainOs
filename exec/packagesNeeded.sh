@@ -17,6 +17,7 @@ packages=(
     brightnessctl
     pulseaudio
     pulseaudio-alsa
+    sddm
 )
 
 for package in "${packages[@]}"; do
