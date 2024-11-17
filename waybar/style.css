@@ -29,7 +29,7 @@ margin-left: 12px;
 font-size: 4px;
 margin-bottom: 0px;
 border-radius: 10px;
-background: #161320;
+background: #433D8B;
 transition: none;
 }
 
@@ -76,7 +76,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #pulseaudio {
@@ -88,7 +88,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #battery {
@@ -100,7 +100,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #battery.charging, #battery.plugged {
@@ -134,7 +134,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 #clock {
 margin-top: 6px;
@@ -145,7 +145,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 /*background: #1A1826;*/
 }
 
@@ -158,7 +158,7 @@ padding-right: 10px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 #cpu {
 margin-top: 6px;
@@ -169,7 +169,7 @@ padding-right: 10px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #tray {
@@ -181,7 +181,7 @@ padding-right: 10px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #custom-launcher {
@@ -193,7 +193,7 @@ padding-right: 5px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #custom-power {
@@ -207,7 +207,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #custom-wallpaper {
@@ -219,7 +219,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #custom-updates {
@@ -231,7 +231,7 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
 
 #custom-media {
@@ -243,5 +243,5 @@ margin-bottom: 0px;
 border-radius: 10px;
 transition: none;
 color: #C8ACD6;
-background: #2E236C;
+background: #433D8B;
 }
