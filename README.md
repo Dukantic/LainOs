@@ -1,7 +1,7 @@
 # LainOs
 
 ## Repo used (thank you !)
-
+- [awesome-wofi](https://github.com/calthejuggler/awesome-wofi)
 ## Packages 
 - hyprland
 - kitty
