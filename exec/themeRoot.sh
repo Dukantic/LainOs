@@ -1,15 +1,14 @@
 
 parent_dir=$(dirname "$(dirname "$(realpath "$0")")")
-dossier_entree="$PWD/.."
-dossier_arrivee="/imageGRUB"
+dir_end="/imageGRUB"
 image="navi.png"
 
 
-if [ ! -d "$dossier_arrivee" ]; then
-    sudo mkdir -p "$dossier_arrivee"
+if [ ! -d "$dir_end" ]; then
+    sudo mkdir -p "$dir_end"
 fi
-sudo cp $dossier_entree/hypr/wallpaper/$image $dossier_arrivee
-sudo cp $dossier_entree/otherConfig/grub /etc/default/grub
+sudo cp $parent_dir/hypr/wallpaper/$image $dir_end
+sudo cp $parent_dir/otherConfig/grub /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 

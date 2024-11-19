@@ -13,7 +13,7 @@ if [ -f "$link_path" ] && [ ! -L "$link_path" ]; then
 fi
 if [ ! -L "$link_path" ]; then
     ln -s "$source_file" "$link_path"
-    echo ".clang-format créé avec succès."
+    echo ".clang-format done."
 fi
 
 
@@ -29,5 +29,5 @@ fi
 
 if [ ! -L "$link_path" ]; then
     ln -s "$source_file" "$link_path"
-    echo ".clang-format créé avec succès."
+    echo ".clang-format done."
 fi
