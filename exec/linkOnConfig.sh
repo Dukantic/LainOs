@@ -3,7 +3,7 @@
 
 # .bashrc -> .config/.bashrc
 
-source_file="$HOME/.config/.bashrc"
+parent_dir=$(dirname "$(dirname "$(realpath "$0")")")
 link_path="$HOME/.bashrc"
 
 if [ -f "$link_path" ] && [ ! -L "$link_path" ]; then
@@ -12,14 +12,14 @@ if [ -f "$link_path" ] && [ ! -L "$link_path" ]; then
 
 fi
 if [ ! -L "$link_path" ]; then
-    ln -s "$source_file" "$link_path"
+    ln -s "$parent_dir/.bashrc" "$link_path"
     echo ".clang-format done."
 fi
 
 
 # .clang-format -> .config/otherConfig/.clang-format
 
-source_file="$HOME/.config/otherConfig/.clang-format"
+parent_dir=$(dirname "$(dirname "$(realpath "$0")")")
 link_path="$HOME/.clang-format"
 
 if [ -f "$link_path" ] && [ ! -L "$link_path" ]; then
@@ -28,6 +28,6 @@ if [ -f "$link_path" ] && [ ! -L "$link_path" ]; then
 fi
 
 if [ ! -L "$link_path" ]; then
-    ln -s "$source_file" "$link_path"
+    ln -s "$parent_dir/otherConfig/.clang-format" "$link_path"
     echo ".clang-format done."
 fi

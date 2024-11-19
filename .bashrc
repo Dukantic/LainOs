@@ -19,6 +19,5 @@ date +"%Y-%m-%d" | toilet -f future --filter crop -t
 toilet -f future --filter crop -t Present time
 date +"%H:%M-%S" | toilet -f future --filter crop -t 
 
+alias vi='nvim'
 #cat "$HOME/.config/tool/naviASCII"
-
-
