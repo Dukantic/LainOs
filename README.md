@@ -14,4 +14,4 @@
 - font-manager
 
 ## Theme Externe
-- (FireFox)[https://addons.mozilla.org/fr/firefox/addon/dreamer-bold/]
+- [FireFox](https://addons.mozilla.org/fr/firefox/addon/dreamer-bold/)
