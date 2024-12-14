@@ -12,21 +12,21 @@ ls.add_snippets("c", {
     s("func", {
         t({"", ""}),
         t("void "), i(1, "function_name"), t("("), i(2, "parameters"), t({")", ""}),
-        t("{"), t({"", "  "}), i(3, "// TODO"), t({"", "}"}),
+        t("\t{"), t({"", "  "}),t("\t"), i(3, "// TODO"), t({"", "\t}"}),
     }),
 
     -- Boucle for
     s("for", {
         t({"", ""}),
-        t("for (int "), i(1, "i"), t(" = 0; "), i(1), t(" < "), i(2, "n"), t("; "), i(1), t({"++)", ""}),
-        t("{"), t({"", "  "}), i(3, "// TODO"), t({"", "}"}),
+        t("for ("), i(1), t("; "), i(2), t("; "), i(3), t({")", ""}),
+        t("\t{"), t({"", "  "}),t("\t"), i(4, "// TODO"), t({"", "\t}"}),
     }),
 
     -- Boucle while
     s("while", {
         t({"", ""}),
         t("while ("), i(1, "condition"), t({")", ""}),
-        t("{"), t({"", "  "}), i(2, "// TODO"), t({"", "}"}),
+        t("\t{"), t({"", "  "}), t("\t"), i(2, "// TODO"), t({"", "\t}"}),
     }),
 
     -- Condition if
@@ -40,14 +40,14 @@ ls.add_snippets("c", {
     s("elif", {
         t({"", ""}),
         t("else if ("), i(1, "condition"), t({")", ""}),
-        t("{"), t({"", "  "}), i(2, "// TODO"), t({"", "}"}),
+        t("\t{"), t({"", "  "}),t("\t"), i(2, "// TODO"), t({"", "\t}"}),
     }),
 
     -- Else
     s("else", {
         t({"", ""}),
         t("else"), t({""}),
-        t("{"), t({"", "  "}), i(1, "// TODO"), t({"", "}"}),
+        t("\t{"), t({"", "  "}), t("\t"), i(1, "// TODO"), t({"", "\t}"}),
     }),
 
     -- Switch
@@ -69,12 +69,4 @@ ls.add_snippets("c", {
         t("#include <"), i(1, "header_file"), t(">"),
     }),
 
-    -- Classe simple
-    s("class", {
-        t({"", ""}),
-        t("class "), i(1, "ClassName"), t({"", "{"}),
-        t({"public:"}), t({"", "  "}), i(2, "ClassName();"), t({"", ""}),
-        t("private:"), t({"", "  "}), i(3, "// Private members"), t({"", "};"}),
-    }),
 })
-
