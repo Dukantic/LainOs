@@ -61,9 +61,9 @@ cmp.setup({
         --['<CR>'] = cmp.mapping.confirm({ select = true }),
     },
     sources = cmp.config.sources({
-        { name = 'luasnip' }, -- Utiliser LuaSnip comme source de snippets
-        { name = 'nvim_lsp' },
-        { name = 'buffer' },
-        { name = 'path' },
+        { name = 'luasnip' , group_index = 1}, -- Utiliser LuaSnip comme source de snippets
+        { name = 'nvim_lsp', group_index = 2 },
+        { name = 'buffer' , group_index = 3},
+        { name = 'path' , group_index = 4},
     })
 })

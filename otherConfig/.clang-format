@@ -1,4 +1,1 @@
 BasedOnStyle: GNU
-IndentWidth: 2
-UseTab: Never
-AlwaysBreakAfterReturnType: None
